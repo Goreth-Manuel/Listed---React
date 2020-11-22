@@ -1,0 +1,43 @@
+.main-header {
+  display: flex;
+  padding: 10px 115px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-header span {
+  font-size: 25pt;
+  font-weight: 300;
+}
+
+.main-header nav ul {
+  display: flex;
+  align-items: center;
+}
+
+.main-header nav ul li {
+  padding: 0px 20px;
+}
+
+.main-header nav ul li:first-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 20px;
+  background: #746fe7;
+  color: #fff;
+  border-radius: 20px;
+  border: 1px solid transparent;
+  transition: all 0.5s;
+}
+
+.main-header nav ul li:first-child:hover {
+  cursor: pointer;
+  border: 1px solid #746fe7;
+  background: none;
+  color: #746fe7;
+}
+
+.main-header nav ul li:nth-child(3) i {
+  margin-left: 5px;
+}

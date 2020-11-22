@@ -1,0 +1,14 @@
+section {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+section {
+  background: url(../Images/Template\ DLine.png) no-repeat;
+  background-position: center;
+  background-size: 1370px 500px;
+}
